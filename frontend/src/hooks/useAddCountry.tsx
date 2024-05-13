@@ -2,12 +2,16 @@ import { useMutation, gql } from "@apollo/client";
 import { GET_COUNTRIES } from "@/graphql/queries";
 import { GetCountriesResponse, Country } from "@/types";
 
-const ADD_COUNTRY = gql`
-  mutation AddCountry($name: String!, $emoji: String!, $code: String!) {
-    addCountry(name: $name, emoji: $emoji, code: $code) {
+export const ADD_COUNTRY = gql`
+  mutation AddCountry($data: NewCountryInput!) {
+    addCountry(data: $data) {
       name
       emoji
       code
+      continent {
+        id
+        name
+      }
     }
   }
 `;

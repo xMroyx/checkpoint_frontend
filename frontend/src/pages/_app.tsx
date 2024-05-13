@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import { ApolloProvider } from "@apollo/client";
 import createApolloClient from "@/graphql/client";
 import Header from "@/components/Header";
+import "../styles/globals.css";
 
 const client = createApolloClient();
 
