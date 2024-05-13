@@ -10,7 +10,7 @@ Tu peux démarrer le checkpoint en une commande (qui utilise docker), dans le r�
 npm start
 ```
 
-Si tu ne souhaites pas utiliser docker, rends-toi simplement dans les sous-repertoires backend et frontend et lis les instructions dans le fichier README à l'interieur.
+Si tu ne souhaites pas utiliser docker, rends-toi simplement dans les sous-repertoires backend et frontend et lis les instructions dans le fichier README à l'intérieur.
 
 Une fois le projet lancé, rends-toi sur [http://localhost:4000/graphql](http://localhost:4000/graphql) afin d'explorer l'API.
 
@@ -32,4 +32,4 @@ Voici un aperçu de ce que cela pourrait donner :
 
 En bonus, tu pourras compléter le développement :
 Permettre de renseigner un continent (à l'aide d'un select) lors de l'ajout d'un pays.
-Dès que tu as fini, penses à prendre un screenshot de toutes tes pages en mobile et en desktop et à placer ces derniers dans le dossier screenshots, où tu trouveras des examples visuels des resultats attendus.
+Dès que tu as fini, penses à prendre un screenshot de toutes tes pages en mobile et en desktop et à placer ces derniers dans le dossier screenshots, où tu trouveras des exemples visuels des résultats attendus.
